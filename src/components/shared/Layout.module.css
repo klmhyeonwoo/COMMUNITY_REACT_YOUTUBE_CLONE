@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: overlay;
+  flex-direction: column;
+  /* border-color : red;
+  border-style: solid; */
+}
+.layout {
+  display: flex;
+  flex: 1;
+  /* border-color : blue;
+  border-style: solid; */
+  margin-top : 56px;
+}
+
+.contents {
+  margin-left: 240px;
+  flex: 1;
+}
+
+.contents_fold {
+  margin-left: 0px;
+  flex : 1;
+}
+
+.menu {
+  display : none;
+}
+
+
+@media screen and (max-width:911px) {
+  .contents {
+    margin-left: 72px;
+  }
+}
